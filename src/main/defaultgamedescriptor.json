@@ -1,0 +1,366 @@
+{
+  "data": {
+    "colors": {
+    },
+    "properties": {
+      "cartPosition": {
+        "skill": "advanced",
+        "validation": {
+          "limit": [
+            "front",
+            "back"
+          ]
+        },
+        "value": null
+      },
+      "cartLevel": {
+        "skill": "advanced",
+        "validation": {
+          "number": {
+            "max": 640,
+            "min": 0
+          }
+        },
+        "value": null
+      },
+      "cartTopOffset": {
+        "group": "cartOffsetGroup",
+        "skill": "advanced",
+        "validation": {
+          "number": {
+            "min": 0
+          }
+        },
+        "value": null
+      },
+      "cartLeftOffset": {
+        "group": "cartOffsetGroup",
+        "skill": "advanced",
+        "validation": {
+          "number": {
+            "min": 0
+          }
+        },
+        "value": null
+      },
+      "cartRightOffset": {
+        "group": "cartOffsetGroup",
+        "skill": "advanced",
+        "validation": {
+          "number": {
+            "min": 0
+          }
+        },
+        "value": null
+      }
+    }
+  },
+  "files": {
+    "skin": [
+      {
+        "id": "logo",
+        "skill": "basic",
+        "src": null,
+        "type": "image",
+        "removable": true,
+        "logo": {
+          "auto": true,
+          "aspect": "horizontal"
+        }
+      },
+      {
+        "id": "background",
+        "skill": "basic",
+        "src": null,
+        "type": "image"
+      },
+      {
+        "id": "cart",
+        "skill": "basic",
+        "src": null,
+        "type": "image"
+      },
+      {
+        "id": "object1",
+        "skill": "basic",
+        "src": null,
+        "type": "image"
+      },
+      {
+        "id": "object2",
+        "skill": "basic",
+        "src": null,
+        "type": "image",
+        "removable": true
+      },
+      {
+        "id": "object3",
+        "skill": "basic",
+        "src": null,
+        "type": "image",
+        "removable": true
+      },
+      {
+        "id": "bomb",
+        "skill": "basic",
+        "src": null,
+        "type": "image",
+        "removable": true
+      },
+      {
+        "id": "bonus",
+        "skill": "basic",
+        "src": null,
+        "type": "image",
+        "feature": {
+          "prizes": {
+            "enabled": true
+          }
+        }
+      },
+      {
+        "id": "lang/lives",
+        "skill": "advanced",
+        "src": null,
+        "type": "image"
+      },
+      {
+        "id": "lang/score",
+        "skill": "advanced",
+        "src": null,
+        "type": "image"
+      },
+      {
+        "id": "lang/bonuspick",
+        "skill": "advanced",
+        "src": null,
+        "type": "image",
+        "feature": {
+          "prizes": {
+            "enabled": true
+          }
+        }
+      },
+      {
+        "id": "lang/summary",
+        "skill": "advanced",
+        "src": null,
+        "type": "image"
+      },
+      {
+        "id": "lang/summarybonus",
+        "skill": "advanced",
+        "src": null,
+        "type": "image",
+        "feature": {
+          "prizes": {
+            "enabled": true
+          }
+        }
+      },
+      {
+        "id": "lang/continue",
+        "skill": "advanced",
+        "src": null,
+        "type": "image"
+      },
+      {
+        "id": "lang/bonusroundinstructions",
+        "skill": "advanced",
+        "src": null,
+        "type": "image",
+        "feature": {
+          "prizes": {
+            "enabled": true
+          }
+        }
+      },
+      {
+        "id": "lang/bonuswinicon",
+        "skill": "advanced",
+        "src": null,
+        "type": "image",
+        "feature": {
+          "prizes": {
+            "enabled": true
+          }
+        }
+      },
+      {
+        "id": "lang/bonuswrongicon",
+        "skill": "advanced",
+        "src": null,
+        "type": "image",
+        "feature": {
+          "prizes": {
+            "enabled": true
+          }
+        }
+      },
+      {
+        "id": "lang/helpbackground",
+        "skill": "advanced",
+        "src": null,
+        "type": "image"
+      },
+      {
+        "id": "lang/next",
+        "skill": "advanced",
+        "src": null,
+        "type": "image",
+        "feature": {
+          "prizes": {
+            "enabled": true
+          }
+        }
+      },
+      {
+        "id": "lang/play",
+        "skill": "advanced",
+        "src": null,
+        "type": "image"
+      },
+      {
+        "id": "font1-data",
+        "skill": "hidden",
+        "src": null,
+        "type": "text"
+      },
+      {
+        "id": "font1",
+        "skill": "hidden",
+        "src": null,
+        "type": "image"
+      },
+      {
+        "id": "layout",
+        "skill": "hidden",
+        "src": null,
+        "type": "text"
+      },
+      {
+        "id": "sound/catch",
+        "removable": true,
+        "skill": "basic",
+        "src": null,
+        "type": "sound"
+      },
+      {
+        "id": "sound/catchbonus",
+        "removable": true,
+        "skill": "basic",
+        "src": null,
+        "type": "sound",
+        "feature": {
+          "prizes": {
+            "enabled": true
+          }
+        }
+      },
+      {
+        "id": "sound/bomb",
+        "removable": true,
+        "skill": "basic",
+        "src": null,
+        "type": "sound"
+      },
+      {
+        "id": "sound/bounce",
+        "removable": true,
+        "skill": "basic",
+        "src": null,
+        "type": "sound"
+      },
+      {
+        "id": "sound/summary",
+        "removable": true,
+        "skill": "basic",
+        "src": null,
+        "type": "sound"
+      },
+      {
+        "id": "sound/bonusround",
+        "removable": true,
+        "skill": "basic",
+        "src": null,
+        "type": "sound",
+        "feature": {
+          "prizes": {
+            "enabled": true
+          }
+        }
+      },
+      {
+        "id": "sound/bonuswin",
+        "removable": true,
+        "skill": "basic",
+        "src": null,
+        "type": "sound",
+        "feature": {
+          "prizes": {
+            "enabled": true
+          }
+        }
+      },
+      {
+        "id": "sound/bonuslose",
+        "removable": true,
+        "skill": "basic",
+        "src": null,
+        "type": "sound",
+        "feature": {
+          "prizes": {
+            "enabled": true
+          }
+        }
+      },
+      {
+        "id": "hand",
+        "skill": "hidden",
+        "src": null,
+        "type": "image"
+      },
+      {
+        "id": "lang/help1",
+        "skill": "hidden",
+        "src": null,
+        "type": "image"
+      },
+      {
+        "id": "lang/help2",
+        "skill": "hidden",
+        "src": null,
+        "type": "image"
+      },
+      {
+        "id": "lang/help3",
+        "skill": "hidden",
+        "src": null,
+        "type": "image"
+      },
+      {
+        "id": "lang/help4",
+        "skill": "hidden",
+        "src": null,
+        "type": "image"
+      },
+      {
+        "id": "lang/help5",
+        "skill": "hidden",
+        "src": null,
+        "type": "image"
+      },
+      {
+        "id": "lang/help6",
+        "skill": "hidden",
+        "src": null,
+        "type": "image",
+        "feature": {
+          "prizes": {
+            "enabled": true
+          }
+        }
+      }
+    ]
+  }
+}

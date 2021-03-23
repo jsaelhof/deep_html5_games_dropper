@@ -1,0 +1,1762 @@
+{
+  "gameId" : "dropper",
+  "library" : {
+    "skin" : [ {
+      "src" : "assets/background_1.jpg",
+      "recommended" : [ "backtoschool" ],
+      "id" : [ "background" ]
+    }, {
+      "src" : "assets/background_10.jpg",
+      "recommended" : [ ],
+      "id" : [ "background" ],
+      "hidden" : true
+    }, {
+      "src" : "assets/background_2.jpg",
+      "recommended" : [ "beachvacation" ],
+      "id" : [ "background" ]
+    }, {
+      "src" : "assets/background_3.jpg",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "background" ]
+    }, {
+      "src" : "assets/background_4.jpg",
+      "recommended" : [ "coffeeshop" ],
+      "id" : [ "background" ]
+    }, {
+      "src" : "assets/background_5.jpg",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "background" ]
+    }, {
+      "src" : "assets/background_7.jpg",
+      "recommended" : [ "mysteryshopper" ],
+      "id" : [ "background" ]
+    }, {
+      "src" : "assets/background_8.jpg",
+      "recommended" : [ "thebigcatch" ],
+      "id" : [ "background" ]
+    }, {
+      "src" : "assets/background_9.jpg",
+      "recommended" : [ ],
+      "id" : [ "background" ]
+    }, {
+      "src" : "assets/bomb_1.png",
+      "recommended" : [ "backtoschool" ],
+      "id" : [ "bomb" ]
+    }, {
+      "src" : "assets/bomb_2.png",
+      "recommended" : [ "beachvacation" ],
+      "id" : [ "bomb" ]
+    }, {
+      "src" : "assets/bomb_3.png",
+      "recommended" : [ "beachvacation" ],
+      "id" : [ "bomb" ]
+    }, {
+      "src" : "assets/bomb_4.png",
+      "recommended" : [ "beachvacation" ],
+      "id" : [ "bomb" ]
+    }, {
+      "src" : "assets/bomb_5.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "bomb" ]
+    }, {
+      "src" : "assets/bomb_6.png",
+      "recommended" : [ "coffeeshop" ],
+      "id" : [ "bomb" ]
+    }, {
+      "src" : "assets/bomb_7.png",
+      "recommended" : [ "dropnshop", "mysteryshopper", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "bomb" ]
+    }, {
+      "src" : "assets/bomb_8.png",
+      "recommended" : [ "dropnshop", "mysteryshopper" ],
+      "id" : [ "bomb" ]
+    }, {
+      "src" : "assets/bomb_9.png",
+      "recommended" : [ "dropnshop", "mysteryshopper" ],
+      "id" : [ "bomb" ]
+    }, {
+      "src" : "assets/bomb_10.png",
+      "recommended" : [ "dropnshop", "mysteryshopper" ],
+      "id" : [ "bomb" ]
+    }, {
+      "src" : "assets/bomb_11.png",
+      "recommended" : [ "thebigcatch" ],
+      "id" : [ "bomb" ]
+    }, {
+      "src" : "assets/bomb_12.png",
+      "recommended" : [ "thebigcatch" ],
+      "id" : [ "bomb" ]
+    }, {
+      "src" : "assets/bomb_13.png",
+      "recommended" : [ "thebigcatch" ],
+      "id" : [ "bomb" ]
+    }, {
+      "src" : "assets/cart_1.png",
+      "recommended" : [ "backtoschool", "dropnshop", "mysteryshopper", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "cart" ],
+      "properties" : {
+        "cartLeftOffset" : {
+          "value" : 5
+        },
+        "cartLevel" : {
+          "value" : 450
+        },
+        "cartPosition" : {
+          "value" : "front"
+        },
+        "cartRightOffset" : {
+          "value" : 25
+        },
+        "cartTopOffset" : {
+          "value" : 25
+        }
+      }
+    }, {
+      "src" : "assets/cart_2.png",
+      "recommended" : [ "beachvacation" ],
+      "id" : [ "cart" ],
+      "properties" : {
+        "cartLeftOffset" : {
+          "value" : 8
+        },
+        "cartLevel" : {
+          "value" : 460
+        },
+        "cartPosition" : {
+          "value" : "back"
+        },
+        "cartRightOffset" : {
+          "value" : 20
+        },
+        "cartTopOffset" : {
+          "value" : 17
+        }
+      }
+    }, {
+      "src" : "assets/cart_3.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "cart" ],
+      "properties" : {
+        "cartLeftOffset" : {
+          "value" : 5
+        },
+        "cartLevel" : {
+          "value" : 475
+        },
+        "cartPosition" : {
+          "value" : "front"
+        },
+        "cartRightOffset" : {
+          "value" : 5
+        },
+        "cartTopOffset" : {
+          "value" : 3
+        }
+      }
+    }, {
+      "src" : "assets/cart_4.png",
+      "recommended" : [ "coffeeshop" ],
+      "id" : [ "cart" ],
+      "properties" : {
+        "cartLeftOffset" : {
+          "value" : 7
+        },
+        "cartLevel" : {
+          "value" : 495
+        },
+        "cartPosition" : {
+          "value" : "back"
+        },
+        "cartRightOffset" : {
+          "value" : 32
+        },
+        "cartTopOffset" : {
+          "value" : 175
+        }
+      }
+    }, {
+      "src" : "assets/cart_5.png",
+      "recommended" : [ "thebigcatch" ],
+      "id" : [ "cart" ],
+      "properties" : {
+        "cartLeftOffset" : {
+          "value" : 8
+        },
+        "cartLevel" : {
+          "value" : 460
+        },
+        "cartPosition" : {
+          "value" : "back"
+        },
+        "cartRightOffset" : {
+          "value" : 20
+        },
+        "cartTopOffset" : {
+          "value" : 27
+        }
+      }
+    }, {
+      "src" : "assets/cart_6.png",
+      "recommended" : [ ],
+      "id" : [ "cart" ],
+      "properties" : {
+        "cartLeftOffset" : {
+          "value" : 32
+        },
+        "cartLevel" : {
+          "value" : 480
+        },
+        "cartPosition" : {
+          "value" : "back"
+        },
+        "cartRightOffset" : {
+          "value" : 32
+        },
+        "cartTopOffset" : {
+          "value" : 174
+        }
+      },
+      "hidden" : true
+    }, {
+      "src" : "assets/cart_7.png",
+      "recommended" : [ ],
+      "id" : [ "cart" ],
+      "properties" : {
+        "cartLeftOffset" : {
+          "value" : 5
+        },
+        "cartLevel" : {
+          "value" : 450
+        },
+        "cartPosition" : {
+          "value" : "front"
+        },
+        "cartRightOffset" : {
+          "value" : 25
+        },
+        "cartTopOffset" : {
+          "value" : 25
+        }
+      },
+      "hidden" : true
+    }, {
+      "src" : "assets/font1_1.png",
+      "recommended" : [ "backtoschool", "beachvacation", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "font1" ]
+    }, {
+      "src" : "assets/font1_2.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "font1" ]
+    }, {
+      "src" : "assets/font1-data_1.xml",
+      "recommended" : [ "backtoschool", "beachvacation", "chinesenewyear", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "font1-data" ]
+    }, {
+      "src" : "assets/hand_1.png",
+      "recommended" : [ "backtoschool", "beachvacation", "chinesenewyear", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "socialblue", "socialbrown", "rustic" ],
+      "id" : [ "hand" ]
+    }, {
+      "src" : "assets/object_1.png",
+      "recommended" : [ "backtoschool" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_2.png",
+      "recommended" : [ "backtoschool" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_3.png",
+      "recommended" : [ "backtoschool", "taupe", "antiquewhite" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_4.png",
+      "recommended" : [ "beachvacation" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_5.png",
+      "recommended" : [ "beachvacation" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_6.png",
+      "recommended" : [ "beachvacation" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_7.png",
+      "recommended" : [ "beachvacation" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_8.png",
+      "recommended" : [ "beachvacation" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_9.png",
+      "recommended" : [ "beachvacation" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_10.png",
+      "recommended" : [ "beachvacation" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_11.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_12.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_13.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_14.png",
+      "recommended" : [ "coffeeshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_15.png",
+      "recommended" : [ "coffeeshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_16.png",
+      "recommended" : [ "coffeeshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_17.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_18.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_19.png",
+      "recommended" : [ "dropnshop", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_20.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_21.png",
+      "recommended" : [ "dropnshop", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_22.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_23.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_24.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_25.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_26.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_27.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_28.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_29.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_30.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_31.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_32.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_33.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_34.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_35.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_36.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_37.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_38.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_39.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_40.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_41.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_42.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_43.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_44.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_45.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_46.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_47.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_48.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_49.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_50.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_51.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_52.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_53.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_54.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_55.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_56.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_57.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_58.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_59.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_60.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_61.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_62.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_63.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_64.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_65.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_66.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_67.png",
+      "recommended" : [ "dropnshop", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_68.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_69.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_70.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_71.png",
+      "recommended" : [ "mysteryshopper" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_72.png",
+      "recommended" : [ "mysteryshopper" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_73.png",
+      "recommended" : [ "mysteryshopper" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_74.png",
+      "recommended" : [ "mysteryshopper" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_75.png",
+      "recommended" : [ "mysteryshopper" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_76.png",
+      "recommended" : [ "mysteryshopper" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_77.png",
+      "recommended" : [ "mysteryshopper" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_78.png",
+      "recommended" : [ "mysteryshopper" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_79.png",
+      "recommended" : [ "mysteryshopper" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_80.png",
+      "recommended" : [ "thebigcatch" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_81.png",
+      "recommended" : [ "thebigcatch" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_82.png",
+      "recommended" : [ "thebigcatch" ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_83.png",
+      "recommended" : [ ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_84.png",
+      "recommended" : [ ],
+      "id" : [ "object1", "object2", "object3" ],
+      "hidden" : true
+    }, {
+      "src" : "assets/object_85.png",
+      "recommended" : [ ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_86.png",
+      "recommended" : [ ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_87.png",
+      "recommended" : [ ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/object_88.png",
+      "recommended" : [ ],
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "src" : "assets/sound/bomb_1.mp3",
+      "recommended" : [ "backtoschool", "beachvacation", "chinesenewyear", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "socialblue", "socialbrown", "rustic" ],
+      "id" : [ "sound/bomb" ]
+    }, {
+      "src" : "assets/sound/bounce_1.mp3",
+      "recommended" : [ "backtoschool", "beachvacation", "chinesenewyear", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "socialblue", "socialbrown", "rustic" ],
+      "id" : [ "sound/bounce" ]
+    }, {
+      "src" : "assets/sound/catch_1.mp3",
+      "recommended" : [ "backtoschool", "beachvacation", "chinesenewyear", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "socialblue", "socialbrown", "rustic" ],
+      "id" : [ "sound/catch" ]
+    }, {
+      "src" : "assets/sound/catchbonus_1.mp3",
+      "recommended" : [ "backtoschool", "beachvacation", "chinesenewyear", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "socialblue", "socialbrown", "rustic" ],
+      "id" : [ "sound/catchbonus" ]
+    }, {
+      "src" : "assets/sound/clock_1.mp3",
+      "recommended" : [ "backtoschool", "beachvacation", "chinesenewyear", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch" ],
+      "id" : [ "sound/clock" ]
+    }, {
+      "src" : "assets/sound/summary_1.mp3",
+      "recommended" : [ "backtoschool", "beachvacation", "chinesenewyear", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "socialblue", "socialbrown", "rustic" ],
+      "id" : [ "sound/summary" ]
+    }, {
+      "src" : "assets/sound/bonusround_1.mp3",
+      "recommended" : [ "backtoschool", "beachvacation", "chinesenewyear", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "socialblue", "socialbrown", "rustic" ],
+      "id" : [ "sound/bonusround" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/help1_1.png",
+      "recommended" : [ "backtoschool", "beachvacation", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "socialblue", "socialbrown", "rustic" ],
+      "id" : [ "lang/help1" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/help1_2.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "lang/help1" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/help1_3.png",
+      "recommended" : [ ],
+      "id" : [ "lang/help1" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/help2_1.png",
+      "recommended" : [ "backtoschool", "beachvacation", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "socialblue", "socialbrown", "rustic" ],
+      "id" : [ "lang/help2" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/help2_2.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "lang/help2" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/help2_3.png",
+      "recommended" : [ ],
+      "id" : [ "lang/help2" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/help3_1.png",
+      "recommended" : [ "backtoschool", "beachvacation", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "socialblue", "socialbrown", "rustic" ],
+      "id" : [ "lang/help3" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/help3_2.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "lang/help3" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/help3_3.png",
+      "recommended" : [ ],
+      "id" : [ "lang/help3" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/help4_1.png",
+      "recommended" : [ "backtoschool", "beachvacation", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "socialblue", "socialbrown", "rustic" ],
+      "id" : [ "lang/help4" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/help4_2.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "lang/help4" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/help4_3.png",
+      "recommended" : [ ],
+      "id" : [ "lang/help4" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/help5_1.png",
+      "recommended" : [ "backtoschool", "beachvacation", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "socialblue", "socialbrown", "rustic" ],
+      "id" : [ "lang/help5" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/help5_2.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "lang/help5" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/help5_3.png",
+      "recommended" : [ ],
+      "id" : [ "lang/help5" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/help6_1.png",
+      "recommended" : [ "backtoschool", "beachvacation", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "socialblue", "socialbrown", "rustic" ],
+      "id" : [ "lang/help6" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/help6_2.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "lang/help6" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/help6_3.png",
+      "recommended" : [ ],
+      "id" : [ "lang/help6" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/score_1.png",
+      "recommended" : [ "backtoschool", "beachvacation", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "lang/score" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/score_2.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "lang/score" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/score_3.png",
+      "recommended" : [ ],
+      "id" : [ "lang/score" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/summary_1.png",
+      "recommended" : [ "backtoschool", "beachvacation", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "lang/summary" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/summary_2.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "lang/summary" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/summary_3.png",
+      "recommended" : [ ],
+      "id" : [ "lang/summary" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/summary_bonus_1.png",
+      "recommended" : [ "backtoschool", "beachvacation", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "lang/summarybonus" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/summary_bonus_2.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "lang/summarybonus" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/summary_bonus_3.png",
+      "recommended" : [ ],
+      "id" : [ "lang/summarybonus" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/bonus_9.png",
+      "recommended" : [ ],
+      "id" : [ "lang/bonus" ],
+      "hidden" : true
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/lives_1.png",
+      "recommended" : [ "backtoschool", "beachvacation", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "lang/time" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/lives_2.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "lang/time" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/lives_3.png",
+      "recommended" : [ ],
+      "id" : [ "lang/time" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_1.png",
+      "recommended" : [ "backtoschool", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch" ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_2.png",
+      "recommended" : [ "backtoschool", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch" ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_36.png",
+      "recommended" : [ "backtoschool", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch" ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_3.png",
+      "recommended" : [ "backtoschool", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch" ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_4.png",
+      "recommended" : [ "backtoschool", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch" ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_5.png",
+      "recommended" : [ "backtoschool", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch" ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_6.png",
+      "recommended" : [ "backtoschool", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch" ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_7.png",
+      "recommended" : [ "backtoschool", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch" ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_8.png",
+      "recommended" : [ "backtoschool", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch" ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_9.png",
+      "recommended" : [ "backtoschool", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_10.png",
+      "recommended" : [ "backtoschool", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch" ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_11.png",
+      "recommended" : [ "backtoschool", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch" ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_12.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_13.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_14.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_15.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_16.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_17.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_18.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_19.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_20.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_21.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_22.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_23.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_24.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_25.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_26.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_27.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_28.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_29.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_30.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_31.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_32.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_33.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_34.png",
+      "recommended" : [ "beachvacation" ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/continue_35.png",
+      "recommended" : [ ],
+      "id" : [ "lang/continue" ]
+    }, {
+      "src" : "assets/bonus_1.png",
+      "recommended" : [ "backtoschool" ],
+      "id" : [ "bonus" ]
+    }, {
+      "src" : "assets/bonus_2.png",
+      "recommended" : [ "beachvacation" ],
+      "id" : [ "bonus" ]
+    }, {
+      "src" : "assets/bonus_3.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "bonus" ]
+    }, {
+      "src" : "assets/bonus_4.png",
+      "recommended" : [ "coffeeshop" ],
+      "id" : [ "bonus" ]
+    }, {
+      "src" : "assets/bonus_5.png",
+      "recommended" : [ "dropnshop", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "bonus" ]
+    }, {
+      "src" : "assets/bonus_6.png",
+      "recommended" : [ "mysteryshopper" ],
+      "id" : [ "bonus" ]
+    }, {
+      "src" : "assets/bonus_7.png",
+      "recommended" : [ "thebigcatch" ],
+      "id" : [ "bonus" ]
+    }, {
+      "src" : "assets/bonus_8.png",
+      "recommended" : [ ],
+      "id" : [ "bonus" ],
+      "hidden" : true
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/bonuspick_1.png",
+      "recommended" : [ "backtoschool", "beachvacation", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "lang/bonuspick" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/bonuspick_2.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "lang/bonuspick" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/bonuspick_3.png",
+      "recommended" : [ ],
+      "id" : [ "lang/bonuspick" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/bonuspick_4.png",
+      "recommended" : [ ],
+      "id" : [ "lang/bonuspick" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/bonusroundinstructions_1.png",
+      "recommended" : [ "backtoschool", "beachvacation", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "lang/bonusroundinstructions" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/bonusroundinstructions_2.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "lang/bonusroundinstructions" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/bonusroundinstructions_3.png",
+      "recommended" : [ ],
+      "id" : [ "lang/bonusroundinstructions" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/bonuswinicon_1.png",
+      "recommended" : [ "backtoschool", "beachvacation", "chinesenewyear", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "lang/bonuswinicon" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/bonuswinicon_2.png",
+      "recommended" : [ ],
+      "id" : [ "lang/bonuswinicon" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/bonuswrongicon_1.png",
+      "recommended" : [ "backtoschool", "beachvacation", "chinesenewyear", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "lang/bonuswrongicon" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/bonuswrongicon_2.png",
+      "recommended" : [ ],
+      "id" : [ "lang/bonuswrongicon" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/helpbackground_1.png",
+      "recommended" : [ "backtoschool", "beachvacation", "coffeeshop", "dropnshop", "mysteryshopper", "thebigcatch", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "lang/helpbackground" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/helpbackground_2.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "lang/helpbackground" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/helpbackground_3.png",
+      "recommended" : [ ],
+      "id" : [ "lang/helpbackground" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_1.png",
+      "recommended" : [ "coffeeshop" ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_2.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_3.png",
+      "recommended" : [ "backtoschool" ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_4.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_5.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_6.png",
+      "recommended" : [ "thebigcatch" ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_7.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_8.png",
+      "recommended" : [ "mysteryshopper" ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_9.png",
+      "recommended" : [ "dropnshop", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_10.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_11.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_12.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_13.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_14.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_15.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_16.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_17.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_18.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_19.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_20.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_21.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_22.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_23.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_24.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_25.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_26.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_27.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_28.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_29.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_30.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_31.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_32.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_33.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_34.png",
+      "recommended" : [ "beachvacation" ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/next_35.png",
+      "recommended" : [ ],
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_1.png",
+      "recommended" : [ "coffeeshop" ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_2.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_3.png",
+      "recommended" : [ "backtoschool" ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_4.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_5.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_6.png",
+      "recommended" : [ "thebigcatch" ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_7.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_8.png",
+      "recommended" : [ "mysteryshopper" ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_9.png",
+      "recommended" : [ "dropnshop", "taupe", "geometric", "antiquewhite", "rustic" ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_10.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_11.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_12.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_13.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_14.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_15.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_16.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_17.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_18.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_19.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_20.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_21.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_22.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_23.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_24.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_25.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_26.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_27.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_28.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_29.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_30.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_31.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_32.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_33.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_34.png",
+      "recommended" : [ "beachvacation" ],
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "src" : "assets/{lang}/play_35.png",
+      "recommended" : [ ],
+      "id" : [ "lang/play" ]
+    }, {
+      "src" : "assets/logo_1.png",
+      "recommended" : [ "backtoschool" ],
+      "id" : [ "logo" ]
+    }, {
+      "src" : "assets/logo_2.png",
+      "recommended" : [ "beachvacation" ],
+      "id" : [ "logo" ]
+    }, {
+      "src" : "assets/logo_3.png",
+      "recommended" : [ "socialblue", "socialbrown" ],
+      "id" : [ "logo" ]
+    }, {
+      "src" : "assets/logo_4.png",
+      "recommended" : [ "coffeeshop" ],
+      "id" : [ "logo" ]
+    }, {
+      "src" : "assets/logo_5.png",
+      "recommended" : [ "dropnshop" ],
+      "id" : [ "logo" ]
+    }, {
+      "src" : "assets/logo_6.png",
+      "recommended" : [ "chinesenewyear" ],
+      "id" : [ "logo" ]
+    }, {
+      "src" : "assets/logo_7.png",
+      "recommended" : [ "mysteryshopper" ],
+      "id" : [ "logo" ]
+    }, {
+      "src" : "assets/logo_8.png",
+      "recommended" : [ "thebigcatch" ],
+      "id" : [ "logo" ]
+    }, {
+      "src" : "assets/logo_9.png",
+      "recommended" : [ ],
+      "id" : [ "logo" ],
+      "hidden" : true
+    }, {
+      "src" : "assets/logo_10.png",
+      "recommended" : [ ],
+      "id" : [ "logo" ],
+      "hidden" : true
+    }, {
+      "src" : "assets/logo_11.png",
+      "recommended" : [ ],
+      "id" : [ "logo" ],
+      "hidden" : true
+    }, {
+      "recommended" : [ "socialblue", "socialbrown", "antiquewhite", "rustic" ],
+      "src" : "assets/bonus_10.png",
+      "id" : [ "bonus" ]
+    }, {
+      "recommended" : [ "socialblue", "socialbrown" ],
+      "src" : "assets/object_91.png",
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "recommended" : [ "socialblue", "socialbrown" ],
+      "src" : "assets/object_90.png",
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "recommended" : [ "socialblue", "socialbrown" ],
+      "src" : "assets/font1_3.png",
+      "id" : [ "font1" ]
+    }, {
+      "recommended" : [ "socialblue", "socialbrown" ],
+      "src" : "assets/font1-data_3.xml",
+      "id" : [ "font1-data" ]
+    }, {
+      "recommended" : [ "antiquewhite" ],
+      "src" : "assets/logo_15.png",
+      "id" : [ "logo" ]
+    }, {
+      "recommended" : [ "rustic" ],
+      "src" : "assets/logo_14.png",
+      "id" : [ "logo" ]
+    }, {
+      "recommended" : [ "socialblue", "socialbrown" ],
+      "src" : "assets/bomb_14.png",
+      "id" : [ "bomb" ]
+    }, {
+      "recommended" : [ "socialblue", "socialbrown" ],
+      "src" : "assets/object_89.png",
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "recommended" : [ "taupe" ],
+      "src" : "assets/logo_13.png",
+      "id" : [ "logo" ]
+    }, {
+      "recommended" : [ "geometric" ],
+      "src" : "assets/logo_12.png",
+      "id" : [ "logo" ]
+    }, {
+      "recommended" : [ "antiquewhite" ],
+      "src" : "assets/background_12.jpg",
+      "id" : [ "background" ]
+    }, {
+      "recommended" : [ "rustic" ],
+      "src" : "assets/background_13.jpg",
+      "id" : [ "background" ]
+    }, {
+      "recommended" : [ "socialblue", "socialbrown" ],
+      "src" : "assets/cart_8.png",
+      "id" : [ "cart" ],
+      "properties" : {
+        "cartLeftOffset" : {
+          "value" : 5
+        },
+        "cartLevel" : {
+          "value" : 495
+        },
+        "cartPosition" : {
+          "value" : "back"
+        },
+        "cartRightOffset" : {
+          "value" : 44
+        },
+        "cartTopOffset" : {
+          "value" : 205
+        }
+      }
+    }, {
+      "recommended" : [ "taupe" ],
+      "src" : "assets/background_11.jpg",
+      "id" : [ "background" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "recommended" : [ "socialblue" ],
+      "src" : "assets/{lang}/helpbackground_4.png",
+      "id" : [ "lang/helpbackground" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "recommended" : [ "socialbrown" ],
+      "src" : "assets/{lang}/helpbackground_5.png",
+      "id" : [ "lang/helpbackground" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "recommended" : [ "socialblue", "socialbrown" ],
+      "src" : "assets/{lang}/bonuspick_5.png",
+      "id" : [ "lang/bonuspick" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "recommended" : [ "socialblue" ],
+      "src" : "assets/{lang}/summary_bonus_4.png",
+      "id" : [ "lang/summary_bonus" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "recommended" : [ "socialbrown" ],
+      "src" : "assets/{lang}/summary_bonus_5.png",
+      "id" : [ "lang/summary_bonus" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "recommended" : [ "socialblue", "socialbrown" ],
+      "src" : "assets/{lang}/bonuswrongicon_3.png",
+      "id" : [ "lang/bonuswrongicon" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "recommended" : [ "socialblue", "socialbrown" ],
+      "src" : "assets/{lang}/continue_37.png",
+      "id" : [ "lang/continue" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "recommended" : [ "socialbrown" ],
+      "src" : "assets/{lang}/summary_5.png",
+      "id" : [ "lang/summary" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "recommended" : [ "socialblue", "socialbrown" ],
+      "src" : "assets/{lang}/next_37.png",
+      "id" : [ "lang/next" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "recommended" : [ "socialblue" ],
+      "src" : "assets/{lang}/summary_4.png",
+      "id" : [ "lang/summary" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "recommended" : [ "socialblue", "socialbrown" ],
+      "src" : "assets/{lang}/lives_4.png",
+      "id" : [ "lang/lives" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "recommended" : [ "socialbrown" ],
+      "src" : "assets/{lang}/bonusroundinstructions_5.png",
+      "id" : [ "lang/bonusroundinstructions" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "recommended" : [ "socialblue" ],
+      "src" : "assets/{lang}/bonusroundinstructions_4.png",
+      "id" : [ "lang/bonusroundinstructions" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "recommended" : [ "socialblue", "socialbrown" ],
+      "src" : "assets/{lang}/bonuswinicon_3.png",
+      "id" : [ "lang/bonuswinicon" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "recommended" : [ "socialblue", "socialbrown" ],
+      "src" : "assets/{lang}/play_37.png",
+      "id" : [ "lang/play" ]
+    }, {
+      "langs" : [ "en-us" ],
+      "recommended" : [ "socialblue", "socialbrown" ],
+      "src" : "assets/{lang}/score_4.png",
+      "id" : [ "lang/score" ]
+    }, {
+      "recommended" : [ "geometric" ],
+      "src" : "assets/background_14.jpg",
+      "id" : [ "background" ]
+    }, {
+      "recommended" : [ "socialblue" ],
+      "src" : "assets/background_15.jpg",
+      "id" : [ "background" ]
+    }, {
+      "recommended" : [ "socialbrown" ],
+      "src" : "assets/background_16.jpg",
+      "id" : [ "background" ]
+    }, {
+      "recommended" : [ "taupe" ],
+      "src" : "assets/bonus_13.png",
+      "id" : [ "bonus" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/bonus_12.png",
+      "id" : [ "bonus" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/bonus_11.png",
+      "id" : [ "bonus" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/bonus_15.png",
+      "id" : [ "bonus" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/bonus_14.png",
+      "id" : [ "bonus" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/bonus_16.png",
+      "id" : [ "bonus" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/bomb_23.png",
+      "id" : [ "bomb" ]
+    }, {
+      "recommended" : [ "geometric" ],
+      "src" : "assets/object_92.png",
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "recommended" : [ "antiquewhite" ],
+      "src" : "assets/object_93.png",
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/bomb_22.png",
+      "id" : [ "bomb" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/bomb_20.png",
+      "id" : [ "bomb" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/bomb_21.png",
+      "id" : [ "bomb" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/bomb_19.png",
+      "id" : [ "bomb" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/bomb_25.png",
+      "id" : [ "bomb" ]
+    }, {
+      "recommended" : [ "taupe", "geometric" ],
+      "src" : "assets/object_94.png",
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "recommended" : [ "geometric", "rustic" ],
+      "src" : "assets/object_95.png",
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/bomb_24.png",
+      "id" : [ "bomb" ]
+    }, {
+      "recommended" : [ "rustic", "taupe", "geometric", "antiquewhite" ],
+      "src" : "assets/bomb_26.png",
+      "id" : [ "bomb" ]
+    }, {
+      "recommended" : [ "taupe" ],
+      "src" : "assets/object_97.png",
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "recommended" : [ "rustic" ],
+      "src" : "assets/object_96.png",
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/bomb_27.png",
+      "id" : [ "bomb" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/bomb_16.png",
+      "id" : [ "bomb" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/bomb_17.png",
+      "id" : [ "bomb" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/bomb_15.png",
+      "id" : [ "bomb" ]
+    }, {
+      "recommended" : [ "antiquewhite", "rustic" ],
+      "src" : "assets/object_98.png",
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/object_99.png",
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/object_102.png",
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/object_101.png",
+      "id" : [ "object1", "object2", "object3" ]
+    }, {
+      "recommended" : [ ],
+      "src" : "assets/object_100.png",
+      "id" : [ "object1", "object2", "object3" ]
+    } ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "removeComments": true,
+    "noEmitOnError": true,
+    "outFile": "target/dropper.js",
+    "target": "es5"
+  },
+
+  "include": [
+    "src/main/typescript/**/*"
+  ],
+
+  "_files": "The file array is used to list any dependencies that are not node dependencies (found under node_modules/@types automatically). By having these here, we do not need to use the /// reference tags in our code",
+  "files": [
+    "src/types/deepsdk/deepsdk.d.ts"
+  ]
+}

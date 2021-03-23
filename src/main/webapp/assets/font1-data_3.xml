@@ -1,0 +1,25 @@
+<font>
+	<info face="/Users/jason/Desktop/DeepMarkit/SIC/dropper\font1-export" size="80" />
+	<common lineHeight="80" scaleW="154" scaleH="151" pages="1" />
+	<pages>
+		<page id="0" file="/Users/jason/Desktop/DeepMarkit/SIC/dropper\font1-export.png" />
+	</pages>
+	<chars count="14">
+		<char id="48" x="0" y="0" width="40" height="50" xoffset="0" yoffset="30" xadvance="41" /><!-- 0 -->
+		<char id="49" x="116" y="45" width="22" height="48" xoffset="0" yoffset="31" xadvance="23" /><!-- 1 -->
+		<char id="50" x="115" y="100" width="36" height="49" xoffset="0" yoffset="30" xadvance="37" /><!-- 2 -->
+		<char id="51" x="41" y="0" width="37" height="49" xoffset="0" yoffset="31" xadvance="38" /><!-- 3 -->
+		<char id="52" x="0" y="51" width="40" height="48" xoffset="0" yoffset="31" xadvance="41" /><!-- 4 -->
+		<char id="53" x="41" y="50" width="37" height="49" xoffset="0" yoffset="31" xadvance="38" /><!-- 5 -->
+		<char id="54" x="39" y="100" width="38" height="50" xoffset="0" yoffset="30" xadvance="39" /><!-- 6 -->
+		<char id="55" x="79" y="51" width="36" height="48" xoffset="0" yoffset="31" xadvance="37" /><!-- 7 -->
+		<char id="56" x="79" y="0" width="36" height="50" xoffset="0" yoffset="30" xadvance="37" /><!-- 8 -->
+		<char id="57" x="0" y="100" width="38" height="50" xoffset="0" yoffset="30" xadvance="39" /><!-- 9 -->
+		<char id="120" x="139" y="45" width="14" height="37" xoffset="0" yoffset="42" xadvance="15" /><!-- x -->
+		<char id="109" x="78" y="100" width="36" height="37" xoffset="0" yoffset="39" xadvance="37" /><!-- m -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="20" /><!--   -->
+		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="160" /><!-- 	 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

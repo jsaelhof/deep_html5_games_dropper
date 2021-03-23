@@ -1,0 +1,62 @@
+{
+
+  "game": {
+    "displayName": "Dropper"
+  },
+
+  "skins": {
+    "backtoschool": {
+      "displayName": "Back To School",
+      "description": "Here’s a simple math lesson: Players add points by catching the falling school items, and subtract a chance every time they catch a fire alarm. You get bonus marks for customizing this game."
+    },
+    "beachvacation": {
+      "displayName": "Beach Vacation",
+      "description": "Any day is a great day for your Beach Vacation promotion. Players feel the sun on their faces as they catch suns, beach balls and cocktails. But watch out for sharks – each one gobbles up a life. Customize this game with anything you find at the beach."
+    },
+    "chinesenewyear": {
+      "displayName": "Chinese New Year",
+      "description": "Look up! Lucky objects are falling from the sky! Players try their best to catch as many of them as they can in the basket, while avoiding the bad luck items. Want to celebrate another milestone? Customize your game."
+    },
+    "coffeeshop": {
+      "displayName": "Coffee Shop",
+      "description": "Meet new customers at Coffee Shop. Players move the busy server back and forth to catch coffees and cakes to earn more points. Every chili pepper that hits their tray loses them a life. Not a coffee drinker? Customize this game."
+    },
+    "dropnshop": {
+      "displayName": "Drop N' Shop",
+      "description": "Uh, oh. Everything is falling off the shelves at your store. Players better catch the gifts to earn points. They'll need to avoid the credit cards though, as they make expensive gifts. Got your own style in mind? Customize this game."
+    },
+    "mysteryshopper": {
+      "displayName": "Mystery Shopper",
+      "description": "Find great products with Mystery Shopper. Players move the cart back and forth to catch great gifts and avoid sold out products. Customize this game with your own brand or product images."
+    },
+    "thebigcatch": {
+      "displayName": "The Big Catch",
+      "description": "Make a splash with your next promotion. Players try to catch the sea creatures before they disappear into the briny abyss. If players catch the anchors instead, they'll be a man down! Customizing this game is easy."
+    },
+    "antiquewhite": {
+      "displayName": "Antique White",
+      "description": "<description needed>"
+    },
+    "rustic": {
+      "displayName": "Rustic",
+      "description": "<description needed>"
+    },
+    "taupe": {
+      "displayName": "Taupe",
+      "description": "<description needed>"
+    },
+    "geometric": {
+      "displayName": "Geometric",
+      "description": "<description needed>"
+    },
+    "socialblue": {
+      "displayName": "Social - Blue",
+      "description": "<description needed>"
+    },
+    "socialbrown": {
+      "displayName": "Social - Brown",
+      "description": "<description needed>"
+    }
+  }
+
+}

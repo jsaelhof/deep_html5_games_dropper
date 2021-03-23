@@ -1,0 +1,114 @@
+data:
+  colors:
+  properties:
+    cartOffsetGroup:
+      label: Catch Area Tuning
+      desc: These settings adjust the catch area within the bounds of your Catcher image. The game preview displays this area but your players won't see it.
+    cartLeftOffset:
+      label: Left Edge
+      desc: This adjusts the width of the catcher rim in pixels. It sets the point from the left edge of the catcher at which players start catching items. A value of 0 is the left edge.
+    cartRightOffset:
+      label: Right Edge
+      desc: This adjusts the width of the catcher rim in pixels. It sets the point from the right edge of the catcher at which players start catching items. A value of 0 is the right edge.
+    cartTopOffset:
+      label: Top Edge
+      desc: How far do you want items to drop into the catcher before they disappear? Use 0 if you want to use the top edge of catcher. Larger values allow the item to fall deeper into the catcher.
+    cartLevel:
+      label: Catcher Level
+      desc: Set how many pixels from the top of the screen you want the catcher. Smaller values than the default move the catcher up. Larger values move the catcher down.
+    cartPosition:
+      label: Catcher Position
+      desc: Decide if you want the catcher to appear in front of or behind the falling items.
+      values:
+        front: Front
+        back: Back
+
+files:
+  skin:
+    logo:
+      label: Logo
+      desc: Your logo appears on the top center of the game window.
+    cart:
+      label: Catcher
+      desc: The player moves the catcher back and forth to snag Collect Items and dodge Avoid Items.
+    object1:
+      label: Collect Item 1
+      desc: Items will fall randomly at varying speeds throughout game play. Missing these items will cost players one life. 
+    object2:
+      label: Collect Item 2
+      desc: Items will fall randomly at varying speeds throughout game play. Missing these items will cost players one life. 
+    object3:
+      label: Collect Item 3
+      desc: Items will fall randomly at varying speeds throughout game play. Missing these items will cost players one life. 
+    bomb:
+      label: Avoid Item
+      desc: Catching this item will cost players one life.
+    background:
+      label: Background
+      desc: This image is the backdrop for all of the game action.
+    bonus:
+      label: Bonus Pick Cover
+      desc: Players select from a grid of these images to reveal whether they have won a prize.
+    sound/bomb:
+      label: Avoid
+      desc: Players hear this sound when they catch an Avoid item.
+    sound/bonusround:
+      label: Bonus Game
+      desc: Players hear this sound when the bonus game begins.
+    sound/bounce:
+      label: Bounce
+      desc: Players hear this sound when an item bounces off the edge of the catcher.
+    sound/catch:
+      label: Catch (Regular)
+      desc: Players hear this sound when they catch a Collect Item.
+    sound/catchbonus:
+      label: Catch (Bonus)
+      desc: Players hear this sound when they catch a Collect Item that results in a Bonus Pick.
+    sound/bonuswin: 
+      label: Bonus Win
+      desc: Players hear this sound when they find the Bonus Win item in the bonus round.
+    sound/bonuslose:
+      label: Bonus Wrong
+      desc: Players hear this sound when they find a non-winning item in the bonus round.
+    sound/summary:
+      label: Summary
+      desc: Players hear this sound when their final score appears.
+    lang/summary:
+      label: Summary Background
+      desc: The background of the summary screen that shows how many points the player scored. Use the default image as a template for correct alignment.
+    lang/lives:
+      label: Lives
+      desc: This text appears above the remaining lives.
+    lang/score:
+      label: Score
+      desc: This text appears above the player's score.
+    lang/continue:
+      label: Continue Button
+      desc: Players click this button to complete the game.
+    lang/bonuspick:
+      label: Bonus Pick Notification
+      desc: This image appears in the game when a bonus pick is earned.
+    lang/summary:
+      label: Summary Background
+      desc: This image is the background for the game summary screen.
+    lang/summarybonus:
+      label: Summary Background
+      desc: This image is the background for the game summary screen.
+    lang/bonusroundinstructions:
+      label: Bonus Game Status Background
+      desc: This image appears during the bonus game and contains labels for the remaining number of bonus picks.
+    lang/bonuswinicon:
+      label: Bonus Winning Pick Icon
+      desc: The image that is revealed if the player wins when making a bonus pick.
+    lang/bonuswrongicon:
+      label: Bonus Non-winning Pick Icon
+      desc: The image that is revealed if the player makes an incorrect selection when making a bonus pick.
+    lang/helpbackground:
+      label: How To Play Background
+      desc: Appears as the background behind the instructions that explain how to play the game.
+    lang/next:
+      label: Next Button
+      desc: A button that advances the game's instructions to the next page.
+    lang/play:
+      label: Play Button
+      desc: A button that appears at the end of the game's instructions and starts the main game.

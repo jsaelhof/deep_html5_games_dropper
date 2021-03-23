@@ -1,0 +1,32 @@
+<font>
+	<!--
+		This section describes the characters found in the corresponding font image file. It describes both the position
+		of the character within that image as well as information about how to position the character within a string.
+
+		Char Format:
+		id: ASCII code of the character. This should not be changed by users customizing the game.
+		x: The x coordinate of the character in the font image file
+		y: The y coordinate of the character in the font image file
+		width: The width (in pixels) of the character in the font image file
+		height: The height (in pixels) of the character in the font image file
+		xoffset: How far (in pixels) from the origin the character is positioned. Use this to move the character left or right relative to the right edge of the previous character.
+		yoffset: How far (in pixels) from the baseline the character is positioned. Use this to raise or lower the character relative to the baseline.
+		xadvance: How far (in pixels) to advance the cursor before placing the next character in the sequence.
+	-->
+	<chars>
+		<char id="48" x="0" y="0" width="49" height="57" xoffset="0" yoffset="0" xadvance="53" /><!-- 0 -->
+		<char id="49" x="138" y="0" width="25" height="56" xoffset="0" yoffset="0" xadvance="29" /><!-- 1 -->
+		<char id="50" x="95" y="0" width="42" height="56" xoffset="0" yoffset="0" xadvance="46" /><!-- 2 -->
+		<char id="51" x="90" y="116" width="42" height="57" xoffset="0" yoffset="0" xadvance="46" /><!-- 3 -->
+		<char id="52" x="0" y="58" width="48" height="56" xoffset="0" yoffset="0" xadvance="52" /><!-- 4 -->
+		<char id="53" x="90" y="58" width="42" height="57" xoffset="0" yoffset="0" xadvance="46" /><!-- 5 -->
+		<char id="54" x="50" y="0" width="44" height="57" xoffset="0" yoffset="0" xadvance="48" /><!-- 6 -->
+		<char id="55" x="49" y="58" width="40" height="56" xoffset="0" yoffset="0" xadvance="44" /><!-- 7 -->
+		<char id="56" x="45" y="115" width="44" height="57" xoffset="0" yoffset="0" xadvance="48" /><!-- 8 -->
+		<char id="57" x="0" y="115" width="44" height="57" xoffset="0" yoffset="0" xadvance="48" /><!-- 9 -->
+		<char id="58" x="164" y="0" width="15" height="43" xoffset="0" yoffset="13" xadvance="19" /><!-- : -->
+		<char id="43" x="133" y="57" width="41" height="40" xoffset="0" yoffset="8" xadvance="45" /><!-- + -->
+		<char id="45" x="133" y="160" width="26" height="14" xoffset="0" yoffset="24" xadvance="30" /><!-- - -->
+		<char id="47" x="133" y="98" width="38" height="61" xoffset="0" yoffset="0" xadvance="42" /><!-- / -->
+	</chars>
+</font>

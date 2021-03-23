@@ -1,0 +1,14 @@
+{
+
+  "info": {
+    "gameId": "dropper",
+    "orientation": "portrait",
+    "width": 400
+  },
+
+  "skins": [
+    "dropnshop","coffeeshop","beachvacation","thebigcatch","chinesenewyear","kennymania","mysteryshopper","jugojuice"
+  ]
+
+
+}

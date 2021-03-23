@@ -1,0 +1,168 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <properties>
+        <game.id>dropper</game.id>
+    </properties>
+
+    <name>${game.id}</name>
+
+
+    <groupId>deepmarkit.games.html5.games</groupId>
+    <artifactId>dropper</artifactId>
+    <version>17.1.3-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>deepmarkit.parents</groupId>
+        <artifactId>service-parent</artifactId>
+        <version>8</version>
+    </parent>
+
+    <scm>
+        <url>${scm.url}/deep_html5_games_${game.id}</url>
+        <connection>${scm.conn}/deep_html5_games_${game.id}.git</connection>
+        <developerConnection>${scm.conn}/deep_html5_games_${game.id}.git</developerConnection>
+        <tag>${scm.tag}</tag>
+    </scm>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.5.0</version>
+                <executions>
+                    <!-- Runs the npm install command -->
+                    <execution>
+                        <id>npm-install</id>
+                        <phase>generate-sources</phase>
+                        <configuration>
+                            <executable>${npm}</executable>
+                            <arguments>
+                                <argument>install</argument>
+                            </arguments>
+                        </configuration>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                    </execution>
+
+                    <!-- Runs the npm script command -->
+                    <execution>
+                        <id>npm-build</id>
+                        <phase>generate-sources</phase>
+                        <configuration>
+                            <executable>${npm}</executable>
+                            <arguments>
+                                <argument>run-script</argument>
+                                <argument>build</argument>
+                            </arguments>
+                        </configuration>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                    </execution>
+
+                    <!-- Runs the npm script command -->
+                    <execution>
+                        <id>npm-build_finalize</id>
+                        <phase>package</phase>
+                        <configuration>
+                            <executable>${npm}</executable>
+                            <arguments>
+                                <argument>run-script</argument>
+                                <argument>build:finalize</argument>
+                            </arguments>
+                        </configuration>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>deepmarkit.plugins</groupId>
+                <artifactId>gamedescriptor-plugin</artifactId>
+                <version>1.0.12</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>gamedescriptor</goal>
+                        </goals>
+                        <phase>prepare-package</phase>
+                        <configuration>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>deepmarkit.plugins</groupId>
+                <artifactId>verify-plugin</artifactId>
+                <version>1.0.14</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>verify</goal>
+                        </goals>
+                        <phase>verify</phase>
+                        <configuration>
+                            <excludeSkins>
+                                <skin>kennymania</skin>
+                                <skin>cowboys</skin>
+								<skin>jugojuice</skin>
+                            </excludeSkins>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>1.1</version>
+                <configuration>
+                    <artifacts>
+                        <artifact>
+                            <file>${project.build.directory}/${game.id}.zip</file>
+                            <type>zip</type>
+                        </artifact>
+                    </artifacts>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>attach-artifact</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>platform-windows</id>
+            <activation>
+                <os>
+                    <family>windows</family>
+                </os>
+            </activation>
+            <properties>
+                <npm>npm.cmd</npm>
+            </properties>
+        </profile>
+        <profile>
+            <id>platform-default</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <npm>npm</npm>
+            </properties>
+        </profile>
+    </profiles>
+</project>

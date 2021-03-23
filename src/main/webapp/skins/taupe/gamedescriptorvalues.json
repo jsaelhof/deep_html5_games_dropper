@@ -1,0 +1,179 @@
+{
+  "data": {
+    "colors": {
+    },
+    "properties": {
+      "cartLeftOffset": {
+        "value": 5
+      },
+      "cartLevel": {
+        "value": 450
+      },
+      "cartPosition": {
+        "value": "front"
+      },
+      "cartRightOffset": {
+        "value": 25
+      },
+      "cartTopOffset": {
+        "value": 25
+      }
+    }
+  },
+  "files": {
+    "skin": [
+      {
+        "id": "logo",
+        "src": "assets/logo_13.png"
+      },
+      {
+        "id": "background",
+        "src": "assets/background_11.jpg"
+      },
+      {
+        "id": "cart",
+        "src": "assets/cart_1.png"
+      },
+      {
+        "id": "object1",
+        "src": "assets/object_94.png"
+      },
+      {
+        "id": "object2",
+        "src": "assets/object_3.png"
+      },
+      {
+        "id": "object3",
+        "src": "assets/object_97.png"
+      },
+      {
+        "id": "bomb",
+        "src": "assets/bomb_26.png"
+      },
+      {
+        "id": "bonus",
+        "src": "assets/bonus_13.png"
+      },
+      {
+        "id": "lang/lives",
+        "src": "assets/{lang}/lives_1.png"
+      },
+      {
+        "id": "lang/score",
+        "src": "assets/{lang}/score_1.png"
+      },
+      {
+        "id": "lang/bonuspick",
+        "src": "assets/{lang}/bonuspick_1.png"
+      },
+      {
+        "id": "lang/summary",
+        "src": "assets/{lang}/summary_1.png"
+      },
+      {
+        "id": "lang/summarybonus",
+        "src": "assets/{lang}/summary_bonus_1.png"
+      },
+      {
+        "id": "lang/continue",
+        "src": "assets/{lang}/continue_9.png"
+      },
+      {
+        "id": "lang/bonusroundinstructions",
+        "src": "assets/{lang}/bonusroundinstructions_1.png"
+      },
+      {
+        "id": "lang/bonuswinicon",
+        "src": "assets/{lang}/bonuswinicon_1.png"
+      },
+      {
+        "id": "lang/bonuswrongicon",
+        "src": "assets/{lang}/bonuswrongicon_1.png"
+      },
+      {
+        "id": "lang/helpbackground",
+        "src": "assets/{lang}/helpbackground_1.png"
+      },
+      {
+        "id": "lang/next",
+        "src": "assets/{lang}/next_9.png"
+      },
+      {
+        "id": "lang/play",
+        "src": "assets/{lang}/play_9.png"
+      },
+      {
+        "id": "font1-data",
+        "src": "assets/font1-data_1.xml"
+      },
+      {
+        "id": "font1",
+        "src": "assets/font1_1.png"
+      },
+      {
+        "id": "layout",
+        "src": "skins/{skinId}/layout.json"
+      },
+      {
+        "id": "sound/catch",
+        "src": "assets/sound/catch_1.mp3"
+      },
+      {
+        "id": "sound/catchbonus",
+        "src": "assets/sound/catchbonus_1.mp3"
+      },
+      {
+        "id": "sound/bomb",
+        "src": "assets/sound/bomb_1.mp3"
+      },
+      {
+        "id": "sound/bounce",
+        "src": "assets/sound/bounce_1.mp3"
+      },
+      {
+        "id": "sound/summary",
+        "src": "assets/sound/summary_1.mp3"
+      },
+      {
+        "id": "sound/bonusround",
+        "src": "assets/sound/bonusround_1.mp3"
+      },
+      {
+        "id": "sound/bonuswin",
+        "src": "assets/sound/catchbonus_1.mp3"
+      },
+      {
+        "id": "sound/bonuslose",
+        "src": "assets/sound/bomb_1.mp3"
+      },
+      {
+        "id": "hand",
+        "src": "assets/hand_1.png"
+      },
+      {
+        "id": "lang/help1",
+        "src": "assets/{lang}/help1_1.png"
+      },
+      {
+        "id": "lang/help2",
+        "src": "assets/{lang}/help2_1.png"
+      },
+      {
+        "id": "lang/help3",
+        "src": "assets/{lang}/help3_1.png"
+      },
+      {
+        "id": "lang/help4",
+        "src": "assets/{lang}/help4_1.png"
+      },
+      {
+        "id": "lang/help5",
+        "src": "assets/{lang}/help5_1.png"
+      },
+      {
+        "id": "lang/help6",
+        "src": "assets/{lang}/help6_1.png"
+      }
+    ]
+  }
+}

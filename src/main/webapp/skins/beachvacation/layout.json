@@ -1,0 +1,91 @@
+{
+
+  "logoArea": {
+    "width": 400,
+    "height": 150
+  },
+
+  "score": {
+    "x": 400,
+    "y": 575
+  },
+
+  "lives": {
+    "x": 0,
+    "y": 575
+  },
+
+  "bonusRound": {
+    "boxLoc": [
+      {
+        "x": 70,
+        "y": 240
+      },
+      {
+        "x": 200,
+        "y": 240
+      },
+      {
+        "x": 330,
+        "y": 240
+      },
+      {
+        "x": 70,
+        "y": 390
+      },
+      {
+        "x": 200,
+        "y": 390
+      },
+      {
+        "x": 330,
+        "y": 390
+      }
+    ],
+    "picks": {
+      "x": 260,
+      "y": -57,
+      "scaleX": 0.5,
+      "scaleY": 0.5
+    },
+    "continue": {
+      "x": 200,
+      "y": 560
+    },
+    "continueMaxArea": {
+      "width": 400,
+      "height": 100
+    }
+  },
+
+  "summary": {
+    "container": {},
+    "scoreBonus": {
+      "x": 200,
+      "y": 335,
+      "scaleX": 0.6,
+      "scaleY": 0.6
+    },
+    "scoreNoBonus": {
+      "x": 200,
+      "y": 390,
+      "scaleX": 0.6,
+      "scaleY": 0.6
+    },
+    "bonusPicks": {
+      "x": 200,
+      "y": 465,
+      "scaleX": 0.6,
+      "scaleY": 0.6
+    },
+    "continue": {
+      "x": 200,
+      "y": 585
+    },
+    "continueMaxArea": {
+      "width": 400,
+      "height": 100
+    }
+  }
+
+}
